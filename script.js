@@ -5,8 +5,11 @@ const btn = document.querySelector(".btn");
 
 
 
-btn.addEventListener("click", function onClick(params) {
-	search.style.border = "2px solid black";
-	search.style.fontSize = "30px";
+btn.addEventListener("click", function onClick() {
+	
+search.classList.toggle("active");
+	if (search.classList.contains("active")) {
+		input.focus();
+	}
 });
 

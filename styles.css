@@ -1,22 +1,29 @@
-/*  your css code here. If applicable */
-body{
-	background-color:#755aed;
-}
-.search{
-	background-color:#fff;
-	padding:0 2px;
-	width:fit-content;
-	
-}
-.input{
-	border:none;
-	padding:10px 8px;
-}
-/* .input:focus{
-	font-size:20px;
-} */
-.btn{
-	background-color:#fff;
-	border:none;
-	cursor:pointer;
-}
+.search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .search.active {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 5px;	
+    }
+
+    .input {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-right: 5px;
+      outline: none;
+    }
+
+    .btn {
+      padding: 8px 12px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
