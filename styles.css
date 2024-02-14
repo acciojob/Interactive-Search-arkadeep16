@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#755aed;
+}
+.search{
+	background-color:#fff;
+	padding:0 2px;
+	width:fit-content;
+	
+}
+.input{
+	border:none;
+	padding:10px 8px;
+}
+/* .input:focus{
+	font-size:20px;
+} */
+.btn{
+	background-color:#fff;
+	border:none;
+	cursor:pointer;
+}
